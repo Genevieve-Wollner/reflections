@@ -1,22 +1,37 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
-  (Answer this later y'all)
+  > Shows the things that were added or removed between the two commits you've
+  chosen.
+
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
-
+  > You can more easily follow your own thought process through production, could
+  also allow you to go back to states before changes were made, solving errors and finding solutions.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
-
+  > Pros of manually choosing: You know all your commits are deliberate and have
+  a reason to exist. Cons: You have to remember to do it.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
+  > The purpose of these two are very different. In google docs each document
+  is, by nature, separate from the others. There are no features in google docs
+  that interact with multiple files with the exception of Google Forms, and even then
+  the changes made to the spreadsheet part of a google form doesn't affect the form itself.
+  since git is related to coding, there are frequently several separate documents that
+  rely on one another, like CSS and HTML.
 
 How can you use the commands git log and git diff to view the history of files?
+  > Log can bring up all the commit history, which gives you information that you can
+  check diff against.
 
 How might using version control make you more confident to make changes that could break something?
+  > there's zero consequences for testing things out since you can always go back to the
+  way things were before.
 
 Now that you have your workspace set up, what do you want to try using Git for?
+  > saving my badass code. 
 
 Git command review
 Compare two commits, printing each line that is present in one commit but not the other.
