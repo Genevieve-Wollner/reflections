@@ -6,3 +6,35 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
   > It is a space in which you can decide what files need changes committed as opposed
   to having to update every file in your working directory/ repository at a time.
+
+How can you use the staging area to make sure you have one commit per logical change?
+  > It's like a temporary space to put your progress as you work, it also makes it easy
+  to review what you've done if you've forgotten with git diff.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+  > Branches are useful when you've got tangentially related changes as opposed
+  to complete whole-program changes. Like if you want to make an easy mode of a game,
+  or a different language version.
+
+How do the diagrams help you visualize the branch structure?
+  > Diagrams help you keep track of how your branches relate to your master.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+  > The branches are merged, it is very literal.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  > man it is a lot less tedious to auto merge than manually merge.
+
+
+
+
+
+Git init creates the empty git repository. Git status shows you your current status in your repository,
+including untracked files. Git Add puts a file into the staging area. Git commit commits those changes. Use command
+language in your commit message since you're telling it what to do.
+
+git checkout can be used to access different branches. git branch (argument) creates a new branch.
+
+git checkout -b new_Branch_name makes a new branch and checks it out in one line.
