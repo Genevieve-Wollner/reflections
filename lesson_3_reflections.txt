@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  > For the same reason you'd use cloud storage for anything: Additional security. If you lose the computer you're working on,
+  you'd lose all your data!
